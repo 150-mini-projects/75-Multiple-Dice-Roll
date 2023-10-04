@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Dice Roll</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Multiple Dice Roll</h1>
+
+      <div class="inputs">
+        <div class="input-con">
+          <input type="number" id="numDice" min="1" value="1" />
+          <label for="numDice">Number Of Dice</label>
+        </div>
+        <div class="input-con">
+          <input type="number" id="numSides" min="2" value="6" />
+          <label for="numSides">Number Of Sides</label>
+        </div>
+      </div>
+      <button id="startStopButton">Roll Dice</button>
+
+      <div id="output"></div>
+      <div id="total"></div>
+    </div>
+  </body>
+</html>
